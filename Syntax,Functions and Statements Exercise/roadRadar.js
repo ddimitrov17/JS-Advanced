@@ -19,7 +19,7 @@ function roadRadar(speed, area) {
     if (speed <= speedLimit) {
         console.log(`Driving ${speed} km/h in a ${speedLimit} zone`);
     } else {
-        console.log(`The speed is ${speed-speedLimit} km/h faster than the allowed speed of ${speedLimit} - ${status}`);
+        console.log(`The speed is ${speed - speedLimit} km/h faster than the allowed speed of ${speedLimit} - ${status}`);
     }
 }
 
